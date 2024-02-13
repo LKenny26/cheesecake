@@ -1,0 +1,165 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #faf9d2;
+	font-family: cursive, "Comic Sans", serif;
+
+}
+
+/*Title*/
+h1 {
+	font-family: "Lucida Handwriting", "Times New Roman", serif;
+	color: darkred;
+	text-align: center;
+	background-color: lightsalmon;
+	border-style: groove;
+	border-width: medium;
+	border-color: darkred;	
+}
+
+/* cheesecake image */
+img {
+	border-radius: 8px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	
+}
+
+/*topping title*/
+h3 {
+	color: #d3d665;
+	text-align: center;
+	font-family: "Courier New", "Times New Roman", serif;
+	border-style: dotted;
+	border-width: medium;
+	border-color: #d3d665;
+}
+
+/*selection buttons*/
+#quan {
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+}
+
+/*notebox*/
+textarea {
+	width: 100%;
+}
+
+/* button */
+#orderButton {
+	background-color: #6b0416;
+	color: #d6657a;
+	padding: 15px 20px;
+	font-size: 25px;
+	border-radius: 8px;
+	transition-duration: 0.1s;
+	display: inline-block;
+	cursor: pointer;
+	box-shadow: 0 8px #51181e
+}
+
+#orderButton:hover {
+	background-color: #a20f29;
+	color: #e58395;
+}
+
+#orderButton:active{
+	box-shadow: 0 3px #25010f;
+	transform:translateY(5px);
+}
+
+#totOrder {
+	font-family: Garamond, Arial, Serif;
+	text-align: right;
+	color: blueviolet;
+	font-size: 25px;
+	font-weight: bold;
+	transform:translate(5px,-20px);
+	
+}
+
+#monthlyOrders {
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+}
+
+aside {
+	width: 40%;
+	padding-left: 15px;
+  	margin-left: 15px;
+ 	float: right;
+	max-height: 100px;
+}
+
+ul {
+	margin: auto;
+	width: 100px;
+	color: blueviolet;
+}
+
+#Plain {
+	color: #f2b71a;
+}
+
+#Choco {
+	color: #4f3406;
+}
+
+#Cherry {
+	color: red;
+}
+
+#ty {
+	font-family: "Lucida Handwriting", "Times New Roman", serif;
+	text-align: center;
+	font-size: 30px;
+}
+
+.dropbtn {
+	align: top;
+	font-family: Garamond, Arial, Serif;
+	background-color: #faf9d2;
+	color: blueviolet;
+	padding: 16px;
+	font-size: 25px;
+	border: none;
+	font-weight: bold;
+}
+
+.dropdown {
+	position: relative;
+	overflow-y: auto;
+	overflow-x: hidden;
+	max-height: 100px;
+	min-height: 100px;
+	
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 100px;
+	z-index: 1;
+}
+
+.dropdown-content a {
+  	color: black;
+ 	padding: 12px 16px;
+  	text-decoration: none;
+  	display: block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover a:hover {background-color:#D7AFDE;}
+
+
+
