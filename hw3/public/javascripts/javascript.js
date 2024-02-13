@@ -1,4 +1,4 @@
-
+//@author LeeAhnna Kenny
 $(document).ready(function(){
     $("#orderButton").click(function(){
         var note = $('#notes').val().toLowerCase();
